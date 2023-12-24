@@ -1,80 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 *{
-    
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-    font-size: 16px;
-    font-family: 'Figtree', sans-serif;
-    
-}
-body{
-    display: grid;
-    justify-content: center;
-    height: 100vh;   
-    background-color: hsl(47, 88%, 63%); 
-}
+   margin: 0;
+   box-sizing: border-box;
+   padding: 0;
+   font-family:'Outfit', sans-serif ;
+   font-size: 15px;
+ }
 
-.card{
-    border: 1px solid;
+ body{
+    background-color: hsl(212, 45%, 89%);
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+ }
+
+ .box{
     background-color: hsl(0, 0%, 100%);
     margin: auto;
     width: fit-content;
     border-radius: 15px;
-    padding: 10px;
-    box-shadow: 15px 15px 0px 5px black;
-}
-
-.card > img {
-   width: 100%;
-   border-radius: 25px;
-   padding: 1rem;
-
-}
-.card > h3{
-    display: inline-block;
-    margin-left: 20px;
-    padding: 1%;
-    background-color: hsl(47, 88%, 63%); 
-    border-radius: 5px;
-
-}
-.card > p{
-    padding: 1rem;
-}
-.card-body h4{
-     padding: 1rem;
+    padding: 1px;
+    box-shadow: 0px 0px 20px 0px hsl(220, 15%, 55%);
+    height: 50%;
     
-     font-size: 30px;
-}
-.card-body > h4:hover{
-    color: hsl(47, 88%, 63%); 
-}
-
-.card-body > h4:hover{
-    color: hsl(47, 88%, 63%); 
-}
-
-
-.card-body p{
+ }
+ .box img{
+    width: 300px;
+    border-radius:25px;
     padding: 1rem;
-    font-size: 20px;
-    color:hsl(0, 0%, 50%);
-}
-.profile {
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-}
-
-.profile img{
-    width: 35px ;
+    height: 300px;
     
+ }
+
+.content h3{
+    text-align: center;
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
 }
 
-.profile span{
-    padding: 10px;
-    font-weight: bolder;
+.foot p{
+    padding: 1rem;
+    text-align: center;
+    color:hsl(220, 15%, 55%);
 }
-

@@ -9,23 +9,18 @@ The designs were created to the following widths:
 
 ## Colors
 
-### Primary
-
-- Yellow: hsl(47, 88%, 63%)
-
-### Neutral
-
 - White: hsl(0, 0%, 100%)
-- Grey: hsl(0, 0%, 50%)
-- Black: hsl(0, 0%, 7%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size (paragraph): 16px
+- Font size (paragraph): 15px
 
 ### Font
 
-- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
-- Weights: 600, 800
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
